@@ -132,6 +132,10 @@
         "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/layout/bluetooth_items.xml",
+        "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/layout/bluetooth_items.xml"
+    },
+    {
         "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_expanded_menu_layout.xml"
     },
@@ -142,10 +146,6 @@
     {
         "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/layout/fragment_bluetooth_chat.xml",
-        "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/layout/fragment_bluetooth_chat.xml"
     },
     {
         "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",

@@ -6,9 +6,6 @@ import android.support.v4.app.FragmentActivity;
 import com.example.android.common.logger.Log;
 import com.example.android.common.logger.LogWrapper;
 
-/**
- * Base launcher activity, to handle most of the common plumbing for samples.
- */
 public class SampleActivityBase extends FragmentActivity {
 
     public static final String TAG = "SampleActivityBase";
@@ -24,13 +21,9 @@ public class SampleActivityBase extends FragmentActivity {
         initializeLogging();
     }
 
-    /** Set up targets to receive log data */
     public void initializeLogging() {
-        // Using Log, front-end to the logging chain, emulates android.util.log method signatures.
-        // Wraps Android's native log framework
         LogWrapper logWrapper = new LogWrapper();
         Log.setLogNode(logWrapper);
-
         Log.i(TAG, "Ready");
     }
 }

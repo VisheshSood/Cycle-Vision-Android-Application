@@ -18,9 +18,7 @@ import java.util.UUID;
 
 /**
  * This class does all the work for setting up and managing Bluetooth
- * connections with other devices. It has a thread that listens for
- * incoming connections, a thread for connecting with a device, and a
- * thread for performing data transmissions when connected.
+ * connections with other devices.
  */
 public class CycleVisionService {
     // Debugging
@@ -30,11 +28,10 @@ public class CycleVisionService {
     private static final String NAME_SECURE = "SecureSocket";
     private static final String NAME_INSECURE = "InsecureSocket";
 
-    // Unique UUID for this application
     private static final UUID MY_UUID_SECURE =
-            UUID.fromString("fa87c0d0-afac-11de-8a39-0800200c9a66");
+            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private static final UUID MY_UUID_INSECURE =
-            UUID.fromString("8ce255c0-200a-11e0-ac64-0800200c9a66");
+            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
     // Member fields
     private final BluetoothAdapter mAdapter;
@@ -51,23 +48,13 @@ public class CycleVisionService {
     public static final int STATE_CONNECTING = 2; // now initiating an outgoing connection
     public static final int STATE_CONNECTED = 3;  // now connected to a remote device
 
-    /**
-     * Constructor. Prepares a new  session.
-     *
-     * @param context The UI Activity Context
-     * @param handler A Handler to send messages back to the UI Activity
-     */
+
     public CycleVisionService(Context context, Handler handler) {
         mAdapter = BluetoothAdapter.getDefaultAdapter();
         mState = STATE_NONE;
         mHandler = handler;
     }
 
-    /**
-     * Set the current state of the chat connection
-     *
-     * @param state An integer defining the current connection state
-     */
     private synchronized void setState(int state) {
         Log.d(TAG, "setState() " + mState + " -> " + state);
         mState = state;
@@ -76,17 +63,10 @@ public class CycleVisionService {
         mHandler.obtainMessage(Constants.MESSAGE_STATE_CHANGE, state, -1).sendToTarget();
     }
 
-    /**
-     * Return the current connection state.
-     */
     public synchronized int getState() {
         return mState;
     }
 
-    /**
-     * Start the chat service. Specifically start AcceptThread to begin a
-     * session in listening (server) mode. Called by the Activity onResume()
-     */
     public synchronized void start() {
         Log.d(TAG, "start");
 
@@ -236,9 +216,7 @@ public class CycleVisionService {
         r.write(out);
     }
 
-    /**
-     * Indicate that the connection attempt failed and notify the UI Activity.
-     */
+
     private void connectionFailed() {
         // Send a failure message back to the Activity
         Message msg = mHandler.obtainMessage(Constants.MESSAGE_TOAST);
@@ -456,7 +434,6 @@ public class CycleVisionService {
             byte[] buffer = new byte[1024];
             int bytes;
 
-            // Keep listening to the InputStream while connected
             while (mState == STATE_CONNECTED) {
                 try {
                     // Read from the InputStream
@@ -468,18 +445,12 @@ public class CycleVisionService {
                 } catch (IOException e) {
                     Log.e(TAG, "disconnected", e);
                     connectionLost();
-                    // Start the service over to restart listening mode
                     CycleVisionService.this.start();
                     break;
                 }
             }
         }
 
-        /**
-         * Write to the connected OutStream.
-         *
-         * @param buffer The bytes to write
-         */
         public void write(byte[] buffer) {
             try {
                 mmOutStream.write(buffer);

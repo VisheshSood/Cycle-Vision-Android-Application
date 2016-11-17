@@ -2185,8 +2185,8 @@ containing a value of this type.
         public static final int abc_select_dialog_material=0x7f030019;
         public static final int activity_device_list=0x7f03001a;
         public static final int activity_main=0x7f03001b;
-        public static final int device_name=0x7f03001c;
-        public static final int fragment_bluetooth_chat=0x7f03001d;
+        public static final int bluetooth_items=0x7f03001c;
+        public static final int device_name=0x7f03001d;
         public static final int message=0x7f03001e;
         public static final int notification_media_action=0x7f03001f;
         public static final int notification_media_cancel_action=0x7f030020;
@@ -2202,7 +2202,7 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f03002a;
     }
     public static final class menu {
-        public static final int bluetooth_chat=0x7f0c0000;
+        public static final int bluetooth_cv=0x7f0c0000;
         public static final int main=0x7f0c0001;
     }
     public static final class string {

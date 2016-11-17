@@ -122,7 +122,7 @@ public class CycleVision extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_bluetooth_chat, container, false);
+        return inflater.inflate(R.layout.bluetooth_items, container, false);
     }
 
     @Override
@@ -351,7 +351,7 @@ public class CycleVision extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.bluetooth_chat, menu);
+        inflater.inflate(R.menu.bluetooth_cv, menu);
     }
 
     @Override

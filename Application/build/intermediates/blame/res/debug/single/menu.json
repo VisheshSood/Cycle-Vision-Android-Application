@@ -4,7 +4,7 @@
         "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/menu/main.xml"
     },
     {
-        "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/menu/bluetooth_chat.xml",
-        "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/menu/bluetooth_chat.xml"
+        "merged": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/res/merged/debug/menu/bluetooth_cv.xml",
+        "source": "/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/src/main/res/menu/bluetooth_cv.xml"
     }
 ]
