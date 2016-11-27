@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="22"
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="3639985096337"
-    token="-8151237552558111080"
+    timestamp="27035084119625"
+    token="722639847695927087"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="723" />
+        duration="1918" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="427" />
+        duration="465" />
     <task
         name="verifier"
-        duration="54" />
+        duration="48" />
 
     <artifact
-        location="/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/outputs/apk/Application-debug.apk"
+        location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/outputs/apk/Application-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="3639985096337"
+        timestamp="27035084119625"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/outputs/apk/Application-debug.apk"
+            location="/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
     </build>
 

@@ -1,4 +1,7 @@
-#Sat Nov 19 15:40:36 PST 2016
-base.0=/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sat Nov 26 19:38:38 PST 2016
+base.0=/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d092eef7e8ffb2a29e09ab6bbfcbba38c78fb2b1
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/vishesh/Android-Bluetooth-Application/CycleVision/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0cfad5f5cf0082dfea69b51ee74006d723d29fb0/classes.dex
+base.1=/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0cfad5f5cf0082dfea69b51ee74006d723d29fb0
+file.0=/Users/vishesh/Android/Cycle-Vision-Android-Application/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d092eef7e8ffb2a29e09ab6bbfcbba38c78fb2b1/classes.dex

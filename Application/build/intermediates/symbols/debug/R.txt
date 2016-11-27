@@ -566,7 +566,6 @@ int id expanded_menu 0x7f0a004a
 int id fill 0x7f0a0025
 int id fill_horizontal 0x7f0a0026
 int id fill_vertical 0x7f0a0027
-int id gridview 0x7f0a0069
 int id home 0x7f0a0004
 int id homeAsUp 0x7f0a000d
 int id horizontal 0x7f0a001a
@@ -590,6 +589,7 @@ int id never 0x7f0a0031
 int id new_devices 0x7f0a0066
 int id none 0x7f0a000e
 int id normal 0x7f0a000a
+int id objectgrid 0x7f0a0069
 int id paired_devices 0x7f0a0064
 int id parentPanel 0x7f0a003f
 int id progress_circular 0x7f0a0005

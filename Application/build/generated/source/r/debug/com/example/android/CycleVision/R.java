@@ -2072,7 +2072,6 @@ containing a value of this type.
         public static final int fill=0x7f0a0025;
         public static final int fill_horizontal=0x7f0a0026;
         public static final int fill_vertical=0x7f0a0027;
-        public static final int gridview=0x7f0a0069;
         public static final int home=0x7f0a0004;
         public static final int homeAsUp=0x7f0a000d;
         public static final int horizontal=0x7f0a001a;
@@ -2096,6 +2095,7 @@ containing a value of this type.
         public static final int new_devices=0x7f0a0066;
         public static final int none=0x7f0a000e;
         public static final int normal=0x7f0a000a;
+        public static final int objectgrid=0x7f0a0069;
         public static final int paired_devices=0x7f0a0064;
         public static final int parentPanel=0x7f0a003f;
         public static final int progress_circular=0x7f0a0005;
